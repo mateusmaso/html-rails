@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["m.maso25@gmail.com"]
   spec.description   = %q{HTML template adapter for the Rails asset pipeline.}
   spec.summary       = %q{HTML template adapter for the Rails asset pipeline.}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/mateusmaso/html-rails"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)

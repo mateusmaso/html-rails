@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    html-rails (0.0.3)
+    html-rails (0.0.6)
       rails (~> 4.0.0)
 
 GEM

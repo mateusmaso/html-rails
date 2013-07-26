@@ -16,5 +16,7 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
-  spec.add_runtime_dependency 'rails', '~> 4.0.0'
+  spec.add_dependency "tilt", ">= 1.3"
+  spec.add_dependency 'execjs', ">= 1.3"
+  spec.add_dependency "sprockets", ">= 2.0"
 end

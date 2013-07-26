@@ -13,8 +13,8 @@ module Html
 
       def evaluate(scope, locals, &block)
         <<-TEMPLATE
-          this.HTMLRails || (this.HTMLRails = {});
-          this.HTMLRails['#{scope.logical_path}'] = function() { return '#{escape_javascript data}' }
+          this.HTMLTemplates || (this.HTMLTemplates = {});
+          this.HTMLTemplates['#{scope.logical_path}'] = function() { return '#{escape_javascript data}' }
         TEMPLATE
       end
     end

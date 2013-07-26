@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    html-rails (0.0.7)
+    html-rails (0.0.8)
       execjs (>= 1.3)
       sprockets (>= 2.0)
       tilt (>= 1.3)

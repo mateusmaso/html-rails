@@ -7,6 +7,12 @@ html-rails
 gem html-rails
 ```
 
+### Extension supported
+
+```
+template.html
+```
+
 ### Client side
 
 ```javascript
